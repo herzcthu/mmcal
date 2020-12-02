@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cmd.dir/mmcal.cpp.o  -o cmd 

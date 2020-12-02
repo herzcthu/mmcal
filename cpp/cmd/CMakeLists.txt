@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project (mmcal)
+set (CMAKE_CXX_STANDARD 11)
+include_directories(../include)
+set(SOURCES mmcal.cpp ../src/ceDateTime.cpp ../src/ceMmDateTime.cpp)
+add_executable(mmcal ${SOURCES})
